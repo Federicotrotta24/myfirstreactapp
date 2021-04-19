@@ -1,25 +1,12 @@
-import logo from './logo.svg';
+import NavBar from './Components/Navbar/navBar'
+import {FontAwesomeIcon} from '@fortawesome/free-solid-svg-icons'
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-            Manga store Bs
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <NavBar/>
+  )
+  
 }
 
 export default App;
