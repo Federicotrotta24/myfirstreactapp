@@ -8,6 +8,10 @@ const ItemListContainer = (Props) => {
     setContador(contador + 1);
     alert("Usted tiene " + contador + " productos en el carrito");
   }
+  function eliminarDelCarrito (){
+    setContador (contador - 1);
+    alert('Ya se elimino un producto de su carrito')
+  }
 
   return (
     <body>
@@ -25,10 +29,13 @@ const ItemListContainer = (Props) => {
             </div>
             <div className="price">$4000</div>
           </div>
-          <div>
+          <div className='btn-container'>
             <button className="card-btn-compra" onClick={agregarCarrito}>
               Comprar!
             </button>
+            <button className="card-btn-eliminar" onClick={eliminarDelCarrito}>
+              X
+            </button> 
           </div>
         </div>
 
