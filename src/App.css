@@ -210,3 +210,27 @@
   color: var(--Primario);
   letter-spacing: 6px;
 }
+
+
+.mensajeDeConstruccion-container{
+  display: flex;
+  justify-content: center;
+}
+
+.mensajeDeConstruccion{
+font-size: 35px; 
+font-family: "saucer bb";
+margin-top: 55px;
+color: var(--Primario)
+
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.logo-mario{
+  margin-top: 55px;
+}

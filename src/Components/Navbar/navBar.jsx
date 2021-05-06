@@ -38,18 +38,23 @@ const NavBar = () => {
           <div>
             <ul className="list-container">
               <li className="list">
-                <a href="" className="list-link">
+                <a href="./app" className="list-link">
                   Home
                 </a>
               </li>
               <li className="list">
-                <a href="" className="list-link">
+                <a href="/productos" className="list-link">
                   Productos
                 </a>
               </li>
               <li className="list">
-                <a href="" className="list-link">
+                <a href="/about" className="list-link">
                   About
+                </a>
+              </li>
+              <li className="list">
+                <a href="/pokemonFinder" className="list-link">
+                  Pokemon Finder
                 </a>
               </li>
             </ul>

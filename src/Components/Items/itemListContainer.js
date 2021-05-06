@@ -38,12 +38,11 @@ const ItemListContainer = (Props) => {
             </button> 
           </div>
         </div>
-
         <div className="card">
           <div className="card-photo-container">
             <img className="card-photo" src={Foto} alt="Foto" />
           </div>
-          <div className="description-container">
+          <div className="description-container"> 
             <div className="card-name">Watchmen</div>
             <div className="card-description">
               A mediados de los ochenta, Alan Moore y Dave Gibbons crearon
@@ -51,18 +50,20 @@ const ItemListContainer = (Props) => {
             </div>
             <div className="price">$4000</div>
           </div>
-          <div>
+          <div className='btn-container'>
             <button className="card-btn-compra" onClick={agregarCarrito}>
               Comprar!
             </button>
+            <button className="card-btn-eliminar" onClick={eliminarDelCarrito}>
+              X
+            </button> 
           </div>
         </div>
-
         <div className="card">
           <div className="card-photo-container">
             <img className="card-photo" src={Foto} alt="Foto" />
           </div>
-          <div className="description-container">
+          <div className="description-container"> 
             <div className="card-name">Watchmen</div>
             <div className="card-description">
               A mediados de los ochenta, Alan Moore y Dave Gibbons crearon
@@ -70,18 +71,20 @@ const ItemListContainer = (Props) => {
             </div>
             <div className="price">$4000</div>
           </div>
-          <div>
+          <div className='btn-container'>
             <button className="card-btn-compra" onClick={agregarCarrito}>
               Comprar!
             </button>
+            <button className="card-btn-eliminar" onClick={eliminarDelCarrito}>
+              X
+            </button> 
           </div>
         </div>
-
         <div className="card">
           <div className="card-photo-container">
             <img className="card-photo" src={Foto} alt="Foto" />
           </div>
-          <div className="description-container">
+          <div className="description-container"> 
             <div className="card-name">Watchmen</div>
             <div className="card-description">
               A mediados de los ochenta, Alan Moore y Dave Gibbons crearon
@@ -89,10 +92,13 @@ const ItemListContainer = (Props) => {
             </div>
             <div className="price">$4000</div>
           </div>
-          <div>
+          <div className='btn-container'>
             <button className="card-btn-compra" onClick={agregarCarrito}>
               Comprar!
             </button>
+            <button className="card-btn-eliminar" onClick={eliminarDelCarrito}>
+              X
+            </button> 
           </div>
         </div>
       </div>
