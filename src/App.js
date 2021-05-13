@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NavBar from "./Components/Navbar/navBar";
 import ItemListContainer from "./Components/Items/itemListContainer";
 import About from "./Components/About /about";
-import PokemonFinder from "./Components/pokemonFinder/pokemonFinder"
+import ItemDetail from './Components/Items/itemDetail'
 import "./App.css";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -11,16 +11,16 @@ function App() {
     <BrowserRouter>
       <React.Fragment>
         <NavBar />
-            <PokemonFinder />
         <Switch>
-       
           <Route  path ='/productos'>
             <ItemListContainer saludo="Compra sin culpa" />
           </Route>
           <Route  path='/about'>
               <About />
           </Route>
-          
+          <Route>
+              <ItemDetail/>
+          </Route>
         </Switch>
       </React.Fragment> 
     

@@ -43,20 +43,16 @@ const NavBar = () => {
                 </a>
               </li>
               <li className="list">
-                <a href="/productos" className="list-link">
+                <a href="./productos" className="list-link">
                   Productos
                 </a>
               </li>
               <li className="list">
-                <a href="/about" className="list-link">
+                <a href="./about" className="list-link">
                   About
                 </a>
               </li>
-              <li className="list">
-                <a href="/pokemonFinder" className="list-link">
-                  Pokemon Finder
-                </a>
-              </li>
+              
             </ul>
           </div>
         </div>

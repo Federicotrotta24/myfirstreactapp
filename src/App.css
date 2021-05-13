@@ -4,10 +4,10 @@
 }
 
 :root {
-  --Primario: #bd00ff;
+  --Primario: #64dfdf;
   --Secundario: #64dfdf;
-  --Terciario: #00ff9f;
-  --Cuartario: #d600ff;
+  --Terciario: #f7ecec;
+  --Cuartario: #000000;
 }
 
 * {
@@ -137,7 +137,7 @@
 }
 
 .description-container {
-  background-color: azure;
+  
   padding: 5px;
   border-radius: 15px;
 }
@@ -233,4 +233,76 @@ color: var(--Primario)
 
 .logo-mario{
   margin-top: 55px;
+}
+/* 
+Estilos del item detail */
+
+
+.super-container{
+  display: flex;
+  justify-content: center;
+  margin: 85px;
+
+  border: black;
+  background-color: red;
+  justify-content: space-around;
+
+}
+
+.description-container-detail{
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50px;
+  background: #f7ecec;
+  box-shadow:  20px 20px 60px #d5bebe,
+             -20px -20px 60px #ffffff;
+  margin: 55px; 
+  height: 600px;
+  
+  
+}
+
+.decription-img-container-detail{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: space-around;
+  
+  
+}
+
+.description-price-container-detail{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: space-evenly;
+  
+  margin: 25px;
+  margin-right: 65px;
+  padding: 15px;
+}
+.itemDetail-title{
+  font-size: 45px;
+
+  
+}
+.itemDetail-img{
+  border: solid 5px;
+  border-radius: 15px;
+  border-color: var(--Cuartario);
+  height: 450px;
+  width: 300px;
+  margin-right: 50px;
+  justify-content: center;
+  display: flex;
+}
+
+.description-price{
+  font-size: 45px;
+ 
+}
+
+.item-detail-description{
+  font-size: 17px;
+  font-family: sans-serif;
 }
